@@ -16,6 +16,12 @@ html {
 p {
   color: rgb(85, 85, 85);
 }
+/* hover */
+.header:hover{
+  color: black;
+  font-size: 4vw;
+  transition: all 300ms ease;
+}
 
 /* TRANSITION */
 
@@ -173,4 +179,35 @@ a {
   align-items: center;
   justify-content: center;
   
+}
+/* causes  */
+
+.cmain{
+  height: 50vw;
+  /* border: 1px solid red; */
+}
+
+.lower2{
+  display: flex;
+  flex-direction: column;
+}
+.con2{
+  border: 2px ;
+}
+.smain > h2 {
+  text-align: center;
+}
+
+.smain > p{
+  font-size: 1.4vw;
+}
+
+/* treatment */
+#treatment{
+  /* border: 2px solid red; */
+  height:fit-content;
+}
+
+.footer{
+  height: 20px;
 }
