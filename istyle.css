@@ -26,13 +26,13 @@ html {
 
 .bg1{
     position: relative;
-    top: 24vw;
+    top: -3vw;
     /* width: 100vw; */
     
 }
 .bg2{
     position: relative;
-    bottom: -1.7vw;
+    bottom: 25.3vw;
 }
 
 /* line backgroud */
@@ -113,7 +113,7 @@ html {
     opacity: 80%;
   }
   .lower{
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
   }
 
@@ -133,14 +133,14 @@ html {
 }
 
 .navbar{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   height: 6vw;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .com{
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 25vw;
 }
 
@@ -229,6 +229,7 @@ button {
   box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
   transition: all 0.3s ease-out;
   text-decoration: none;
+  z-index: 10;
 }
 
 .card:hover {
@@ -304,6 +305,11 @@ button {
   left: 50px;
   z-index: 0;
   transition: transform 0.3s ease-out;
+}
+img{
+  height: 8vw;
+  z-index: 2;
+  border-radius: 5vw;
 }
 
 .scon{
