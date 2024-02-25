@@ -34,4 +34,13 @@
  .smain > p{
    font-size: 3vw;
  }
+ .logo > p{
+  font-size: 5vw;
+  position: relative;
+  left: 15.3vw;
+ }
+ .loading{
+  position: relative;
+  
+ }
 }
